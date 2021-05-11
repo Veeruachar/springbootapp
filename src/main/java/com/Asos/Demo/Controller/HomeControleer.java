@@ -10,6 +10,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class HomeControleer {
 	@GetMapping("/greet/{name}")
 	public String home(@PathVariable("name") String name) {
-		return name+"Hello, war deployed";
+		return "Captain"+name+" "+"Hello, war deployed";
 	}
 }
