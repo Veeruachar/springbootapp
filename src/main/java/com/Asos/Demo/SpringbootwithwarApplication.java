@@ -5,7 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
 
 @SpringBootApplication
-public class SpringbootwithwarApplication extends SpringBootServletInitializer{
+public class SpringbootwithwarApplication{
 
 	public static void main(String[] args) {
 		SpringApplication.run(SpringbootwithwarApplication.class, args);
