@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/greetings")
-public class HomeControleer {
+public class HomeController {
 	@GetMapping("/greet/{name}")
 	public String home(@PathVariable("name") String name) {
 		return "Captain"+name+" "+"Hello, war deployed";
